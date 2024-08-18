@@ -1,4 +1,4 @@
-from problem1.problem1 import is_leap_year
+from tests.problem1 import is_leap_year
 
 def test_is_leap_year():
     assert is_leap_year(2000)
